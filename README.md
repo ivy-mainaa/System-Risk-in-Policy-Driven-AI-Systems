@@ -22,6 +22,13 @@ This project operationalizes **four interrelated dimensions of system risk**:
 
 ---
 
+## Dataset
+- **Primary dataset:** Civil Comments (Jigsaw / TensorFlow Datasets)
+- ~2 million online comments annotated for seven harm categories
+- No demographic attributes provided → **identity indicators were engineered** using a curated lexicon.
+
+  --- 
+
 ## Repository Structure
 ```text
 analysis/
@@ -32,13 +39,7 @@ analysis/
 
 paper/
 └── System_Risk_in_Policy_Driven_AI_Systems.pdf
-
----
-
-## Dataset
-- **Primary dataset:** Civil Comments (Jigsaw / TensorFlow Datasets)
-- ~2 million online comments annotated for seven harm categories
-- No demographic attributes provided → **identity indicators were engineered** using a curated lexicon
+```
 
 ## Analysis Components
 
