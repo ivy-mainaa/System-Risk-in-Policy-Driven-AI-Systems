@@ -15,3 +15,9 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Data outputs (do not upload labeled content)
+data/
+outputs/
+*.csv
+*.xlsx
